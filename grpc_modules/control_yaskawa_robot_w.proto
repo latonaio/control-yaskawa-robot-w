@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "google/protobuf/struct.proto";
+
+package controlyaskawarobotw;
+
+service ControlYaskawaRobotW{
+    rpc Write (WriteRequest) returns (WriteResponse) {}
+}
+
+message WriteRequest{
+    google.protobuf.Struct write_command = 1;
+}
+
+message WriteResponse{
+    google.protobuf.Struct robot_data = 1;
+    string timestamp = 2;
+}
+

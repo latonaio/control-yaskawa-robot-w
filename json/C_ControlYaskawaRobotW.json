@@ -1,0 +1,57 @@
+{
+    "nextServiceList": [{
+        "nextServiceName": "ControlYaskawaRobotW",
+        "nextDirectoryOfService": "/home/toyota/gaia/Runtime/control-yaskawa-robot-w/",
+        "nextRuntime": {
+            "type": "python",
+            "run": "main.py"
+        },
+        "nextServiceDevice": "gaia"
+    }],
+    "metadata":[{
+      "key": "write_command",
+      "value": [{
+        "command": "7f",
+        "arrayNo": 0,
+        "elementNo": "00",
+        "processNo": "02",
+        "expire_time": 1000,
+        "property": {
+            "PARAMETER_SET": 19,
+            "ROBOT_FORM": [0,0,0,0,0,0,0,0],
+            "TOOL_NO": 0,
+            "USER_COORDINATE": 1,
+            "ROBOT_FORM_EXTENSION": [0,0,0,0,0,0,0,0],
+            "AXES_01": 12000,
+            "AXES_02": 12000,
+            "AXES_03": 12000,
+            "AXES_04": 1500,
+            "AXES_05": 1500,
+            "AXES_06": 1500,
+            "AXES_07": 0,
+            "AXES_08": 0
+        }
+      },{
+        "command": "7f",
+        "arrayNo": 1,
+        "elementNo": "00",
+        "processNo": "02",
+        "expire_time": 1000,
+        "property": {
+            "PARAMETER_SET": 19,
+            "ROBOT_FORM": [0,0,0,0,0,0,0,0],
+            "TOOL_NO": 0,
+            "USER_COORDINATE": 1,
+            "ROBOT_FORM_EXTENSION": [0,0,0,0,0,0,0,0],
+            "AXES_01": 12000,
+            "AXES_02": 12000,
+            "AXES_03": 12000,
+            "AXES_04": 1500,
+            "AXES_05": 1500,
+            "AXES_06": 1500,
+            "AXES_07": 0,
+            "AXES_08": 0
+        }
+      }]
+    }]
+}
