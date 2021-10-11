@@ -11,7 +11,7 @@ from google.protobuf.json_format import MessageToDict
 from . import control_yaskawa_robot_w_pb2
 from . import control_yaskawa_robot_w_pb2_grpc
 
-SERVER_HOST = '127.0.0.1'
+SERVER_HOST = '127.0.X.X'
 SERVER_PORT = 50053
 
 
